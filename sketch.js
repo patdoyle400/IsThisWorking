@@ -9,6 +9,7 @@ function setup() {
   button = createButton("Reset");
   button.style('padding','20px')
   button.mousePressed(resetSketch);
+  createButton("How long does it take to update?");
 }
 
 function resetSketch(){
